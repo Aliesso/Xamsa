@@ -1,0 +1,79 @@
+body {
+  padding: 0 12px;
+  background-color: #e7e7e7;
+}
+
+p {
+  margin: 0;
+}
+
+.menus .back {
+  width: 32px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.menus .back img {
+  width: 100%;
+}
+
+.menus .xemse_ico {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.menus .xemse_ico img {
+  width: 100%;
+}
+
+.menus .menu_items {
+  margin-top: 55px;
+}
+
+.menus .menu_items .menu_item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto 70px;
+      grid-template-columns: auto auto 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.menus .menu_items .menu_item .title {
+  max-width: 270px;
+}
+
+.menus .menu_items .menu_item .title p {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Caveat", cursive;
+  color: #878787;
+  border-bottom: 1px solid #1a1a1a;
+  padding-bottom: 6px;
+}
+
+.menus .menu_items .menu_item .title span {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400px;
+}
+
+.menus .menu_items .menu_item .price span {
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  color: #5a4c29;
+  white-space: nowrap;
+}
+
+.menus .menu_items .menu_item .image {
+  min-height: 70px;
+}
+
+.menus .menu_items .menu_item .image img {
+  width: 100%;
+}
+/*# sourceMappingURL=menu.css.map */

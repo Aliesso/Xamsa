@@ -1,0 +1,50 @@
+body {
+  padding: 0 12px;
+  background-color: #e7e7e7;
+}
+
+p {
+  margin: 0;
+}
+
+.xemse .xemse_ico {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.xemse .xemse_ico img {
+  width: 100%;
+}
+
+.xemse .xemse_items {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  margin-top: 55px;
+}
+
+.xemse .xemse_items .item {
+  position: relative;
+  font-family: "Caveat", cursive;
+}
+
+.xemse .xemse_items .item img {
+  width: 100%;
+}
+
+.xemse .xemse_items .item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+}
+/*# sourceMappingURL=main.css.map */
